@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="absolute inset-0">
         <img
           src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba"
-          alt="Cinema Hero"
+          alt="Salle de cinéma avec fauteuils rouges - Actualités cinéma et entertainment"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent"></div>

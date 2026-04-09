@@ -3,6 +3,7 @@ import { useParams, Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Clock, Eye, Share2, Facebook, Twitter, Linkedin } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import SEO from '../components/SEO';
 import { mockArticles, trendingArticles } from '../mock/articles';
 import { Button } from '../components/ui/button';
 import { Badge } from '../components/ui/badge';
@@ -18,6 +19,10 @@ const ArticleDetail = () => {
   if (!article) {
     return (
       <div className="min-h-screen bg-gray-50">
+        <SEO 
+          title="Article non trouvé - CineStars"
+          description="L'article que vous recherchez n'existe pas ou a été déplacé."
+        />
         <Header />
         <div className="container mx-auto px-4 py-20 text-center">
           <h1 className="text-3xl font-bold text-gray-900 mb-4">Article non trouvé</h1>
@@ -59,13 +64,22 @@ const ArticleDetail = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEO 
+        title={`${article.title} | CineStars`}
+        description={article.excerpt}
+        keywords={`${article.category}, ${article.type}, ${article.title}, cinéma, séries, célébrités`}
+        image={article.image}
+        url={`https://entertainment-hub-120.preview.emergentagent.com/article/${article.id}`}
+        type="article"
+        author={article.author}
+      />
       <Header />
 
       {/* Hero Image */}
       <div className="relative w-full h-[500px] bg-gray-900">
         <img
           src={article.image}
-          alt={article.title}
+          alt={`${article.title} - ${article.category} - Photo illustration pour article ${article.type}`}
           className="w-full h-full object-cover opacity-90"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
@@ -211,8 +225,9 @@ const ArticleDetail = () => {
                         <div className="relative h-48 overflow-hidden">
                           <img
                             src={related.image}
-                            alt={related.title}
+                            alt={`${related.title} - ${related.category}`}
                             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                            loading="lazy"
                           />
                         </div>
                         <CardContent className="p-4">

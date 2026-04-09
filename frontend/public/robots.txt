@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://entertainment-hub-120.preview.emergentagent.com/sitemap.xml
+
+# Disallow admin or api paths if any
+Disallow: /api/

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://entertainment-hub-120.preview.emergentagent.com/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Article: Margot Robbie Interview -->
+  <url>
+    <loc>https://entertainment-hub-120.preview.emergentagent.com/article/1</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1609741199878-3e8ebdb1dbc7</image:loc>
+      <image:title>Margot Robbie révèle les coulisses de son prochain film</image:title>
+    </image:image>
+  </url>
+
+  <!-- Article: Stranger Things Season 5 -->
+  <url>
+    <loc>https://entertainment-hub-120.preview.emergentagent.com/article/2</loc>
+    <lastmod>2024-01-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1586899028174-e7098604235b</image:loc>
+      <image:title>Stranger Things Saison 5 : Premières images dévoilées</image:title>
+    </image:image>
+  </url>
+
+  <!-- Article: Oppenheimer Oscars -->
+  <url>
+    <loc>https://entertainment-hub-120.preview.emergentagent.com/article/3</loc>
+    <lastmod>2024-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c</image:loc>
+      <image:title>Oppenheimer remporte 7 Oscars : Analyse d'un triomphe</image:title>
+    </image:image>
+  </url>
+
+  <!-- Article: The Last of Us -->
+  <url>
+    <loc>https://entertainment-hub-120.preview.emergentagent.com/article/4</loc>
+    <lastmod>2024-01-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1514525253161-7a46d19cd819</image:loc>
+      <image:title>The Last of Us : Le succès phénoménal de la série HBO</image:title>
+    </image:image>
+  </url>
+
+  <!-- Article: Zendaya Fashion Deal -->
+  <url>
+    <loc>https://entertainment-hub-120.preview.emergentagent.com/article/5</loc>
+    <lastmod>2024-01-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1574438831746-b3f4bada685d</image:loc>
+      <image:title>Zendaya signe un contrat record avec une grande maison de mode</image:title>
+    </image:image>
+  </url>
+
+  <!-- Article: Dune 2 -->
+  <url>
+    <loc>https://entertainment-hub-120.preview.emergentagent.com/article/6</loc>
+    <lastmod>2024-01-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1478720568477-152d9b164e26</image:loc>
+      <image:title>Dune 2 : Denis Villeneuve repousse les limites du cinéma</image:title>
+    </image:image>
+  </url>
+
+  <!-- Article: Timothée Chalamet Interview -->
+  <url>
+    <loc>https://entertainment-hub-120.preview.emergentagent.com/article/7</loc>
+    <lastmod>2024-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1700529043649-a04da2914062</image:loc>
+      <image:title>Interview exclusive : Timothée Chalamet parle de son évolution</image:title>
+    </image:image>
+  </url>
+
+  <!-- Article: The Bear Season 3 -->
+  <url>
+    <loc>https://entertainment-hub-120.preview.emergentagent.com/article/8</loc>
+    <lastmod>2024-01-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://images.pexels.com/photos/167491/pexels-photo-167491.jpeg</image:loc>
+      <image:title>The Bear Saison 3 : Date de sortie et premières infos</image:title>
+    </image:image>
+  </url>
+
+  <!-- Article: Barbie Analysis -->
+  <url>
+    <loc>https://entertainment-hub-120.preview.emergentagent.com/article/9</loc>
+    <lastmod>2024-01-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1536440136628-849c177e76a1</image:loc>
+      <image:title>Barbie : Analyse du phénomène culturel de l'année</image:title>
+    </image:image>
+  </url>
+
+  <!-- Article: Pedro Pascal -->
+  <url>
+    <loc>https://entertainment-hub-120.preview.emergentagent.com/article/10</loc>
+    <lastmod>2024-01-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1499364615650-ec38552f4f34</image:loc>
+      <image:title>Pedro Pascal : L'homme le plus demandé d'Hollywood</image:title>
+    </image:image>
+  </url>
+
+  <!-- Article: 2024 Series Preview -->
+  <url>
+    <loc>https://entertainment-hub-120.preview.emergentagent.com/article/11</loc>
+    <lastmod>2024-01-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.pexels.com/photos/6782332/pexels-photo-6782332.jpeg</image:loc>
+      <image:title>Les séries les plus attendues de 2024</image:title>
+    </image:image>
+  </url>
+
+  <!-- Article: Cannes 2024 -->
+  <url>
+    <loc>https://entertainment-hub-120.preview.emergentagent.com/article/12</loc>
+    <lastmod>2024-01-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1578776704351-d900ace79a76</image:loc>
+      <image:title>Cannes 2024 : Les films en compétition qui font déjà parler</image:title>
+    </image:image>
+  </url>
+
+</urlset>

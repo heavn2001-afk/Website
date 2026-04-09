@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import Hero from '../components/Hero';
 import ArticleCard from '../components/ArticleCard';
 import Footer from '../components/Footer';
+import SEO from '../components/SEO';
 import { mockArticles, trendingArticles, categories } from '../mock/articles';
 import { Button } from '../components/ui/button';
 import { Badge } from '../components/ui/badge';
@@ -45,6 +46,12 @@ const Home = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+      <SEO 
+        title="CineStars - Actualités Cinéma, Séries & Célébrités"
+        description="Découvrez les dernières actualités du monde du cinéma, des séries et des célébrités. Interviews exclusives, critiques de films et analyses approfondies. 12+ articles sur Hollywood, Netflix, et plus."
+        keywords="cinéma, films, séries, célébrités, actualités entertainment, critiques films, interviews, Hollywood, Netflix, Disney+, HBO"
+        url="https://entertainment-hub-120.preview.emergentagent.com"
+      />
       <Header onSearch={handleSearch} />
       <Hero />
 
